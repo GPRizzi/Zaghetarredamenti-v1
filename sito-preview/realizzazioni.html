@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Realizzazioni | Zaghet Arredamenti - Le Nostre Creazioni</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar scrolled" id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo"><img src="../backup-sito-attuale/immagini/logo.png" alt="Zaghet" class="nav-logo-img"></a>
+      <button class="nav-toggle" id="navToggle" aria-label="Menu"><span></span><span></span><span></span></button>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="chi-siamo.html">Chi Siamo</a></li>
+        <li><a href="servizi.html">Servizi</a></li>
+        <li><a href="realizzazioni.html" class="active">Realizzazioni</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="sedi.html">Sedi</a></li>
+        <li><a href="contatti.html" class="nav-cta">Contattaci</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="page-hero">
+    <div class="container">
+      <h1>LE NOSTRE REALIZZAZIONI</h1>
+      <p>Ogni progetto racconta una storia. Scopri le nostre creazioni.</p>
+    </div>
+    <!-- WAVE: dark hero bottom -> overlaps into off-white gallery -->
+    <div class="wave-divider-bottom" aria-hidden="true">
+      <svg viewBox="0 0 1440 100" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,65 C420,20 900,85 1440,35 L1440,100 L0,100 Z" fill="#F5F5F3"/>
+      </svg>
+    </div>
+  </section>
+
+  <section class="gallery-section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Portfolio</span>
+        <h2 class="heading-gradient">Esplora le Nostre Creazioni</h2>
+        <p class="section-desc">Cucine, camere e spazi commerciali realizzati con passione artigianale.</p>
+      </div>
+      <!-- Pill filter buttons -->
+      <div class="gallery-filters reveal">
+        <button class="btn btn-pill active" data-filter="tutti"><i class="fas fa-th-large" style="margin-right:6px"></i> Tutti</button>
+        <button class="btn btn-pill btn-outline-dark" data-filter="cucine"><i class="fas fa-utensils" style="margin-right:6px"></i> Cucine</button>
+        <button class="btn btn-pill btn-outline-dark" data-filter="camere"><i class="fas fa-bed" style="margin-right:6px"></i> Camere</button>
+        <button class="btn btn-pill btn-outline-dark" data-filter="commerciale"><i class="fas fa-store" style="margin-right:6px"></i> Commerciale</button>
+      </div>
+    </div>
+    <div class="gallery-masonry">
+      <div class="gallery-item gallery-tall" data-category="cucine">
+        <img src="../backup-sito-attuale/immagini/slider-moderno-bianco-2.jpg" alt="Cucina moderna isola" loading="lazy">
+        <div class="gallery-hover">
+          <span class="gallery-cat">Cucine</span>
+          <h3>Cucina moderna con isola</h3>
+        </div>
+      </div>
+      <div class="gallery-item" data-category="cucine">
+        <img src="../backup-sito-attuale/immagini/slider-atelier-bianco.jpg" alt="Atelier moderno" loading="lazy">
+        <div class="gallery-hover">
+          <span class="gallery-cat">Cucine</span>
+          <h3>Atelier moderno</h3>
+        </div>
+      </div>
+      <div class="gallery-item" data-category="cucine">
+        <img src="../backup-sito-attuale/immagini/slider-moderno-4.jpg" alt="Cucina legno pietra" loading="lazy">
+        <div class="gallery-hover">
+          <span class="gallery-cat">Cucine</span>
+          <h3>Cucina legno e pietra</h3>
+        </div>
+      </div>
+      <div class="gallery-item" data-category="camere">
+        <img src="../backup-sito-attuale/immagini/slider-letto-etnico.jpg" alt="Camera etnica" loading="lazy">
+        <div class="gallery-hover">
+          <span class="gallery-cat">Camere</span>
+          <h3>Camera stile etnico</h3>
+        </div>
+      </div>
+      <div class="gallery-item" data-category="cucine">
+        <img src="../backup-sito-attuale/immagini/mix-stili-1.jpeg" alt="Mix stili country" loading="lazy">
+        <div class="gallery-hover">
+          <span class="gallery-cat">Cucine</span>
+          <h3>Mix stili country</h3>
+        </div>
+      </div>
+      <div class="gallery-item gallery-tall" data-category="cucine">
+        <img src="../backup-sito-attuale/immagini/cucina-sospesa-1.png" alt="Effetto sospeso" loading="lazy">
+        <div class="gallery-hover">
+          <span class="gallery-cat">Cucine</span>
+          <h3>Effetto sospeso</h3>
+        </div>
+      </div>
+      <div class="gallery-item" data-category="commerciale">
+        <img src="../backup-sito-attuale/immagini/pub-arredamento.png" alt="Pub commerciale" loading="lazy">
+        <div class="gallery-hover">
+          <span class="gallery-cat">Commerciale</span>
+          <h3>Pub commerciale</h3>
+        </div>
+      </div>
+      <div class="gallery-item" data-category="cucine">
+        <img src="../backup-sito-attuale/immagini/slider-moderno-bianco.jpg" alt="Moderno bianco" loading="lazy">
+        <div class="gallery-hover">
+          <span class="gallery-cat">Cucine</span>
+          <h3>Moderno bianco</h3>
+        </div>
+      </div>
+      <div class="gallery-item" data-category="cucine">
+        <img src="../backup-sito-attuale/immagini/slider-moderno-3-bianco.jpg" alt="Cucina moderna 3" loading="lazy">
+        <div class="gallery-hover">
+          <span class="gallery-cat">Cucine</span>
+          <h3>Design contemporaneo</h3>
+        </div>
+      </div>
+      <div class="gallery-item" data-category="cucine">
+        <img src="../backup-sito-attuale/immagini/slider-angolo-moderno.jpg" alt="Angolo moderno" loading="lazy">
+        <div class="gallery-hover">
+          <span class="gallery-cat">Cucine</span>
+          <h3>Soluzione ad angolo</h3>
+        </div>
+      </div>
+      <div class="gallery-item" data-category="cucine">
+        <img src="../backup-sito-attuale/immagini/mix-stili-2.jpeg" alt="Mix stili 2" loading="lazy">
+        <div class="gallery-hover">
+          <span class="gallery-cat">Cucine</span>
+          <h3>Mix stili tradizionale</h3>
+        </div>
+      </div>
+      <div class="gallery-item" data-category="Residenziale" data-title="Cucina Sospesa Premium">
+        <img src="../backup-sito-attuale/immagini/cucina-sospesa-3.png" alt="Cucina sospesa premium" loading="lazy">
+        <div class="gallery-hover">
+          <span class="gallery-cat">Residenziale</span>
+          <h3>Cucina Sospesa Premium</h3>
+        </div>
+      </div>
+      <div class="gallery-item" data-category="cucine">
+        <img src="../backup-sito-attuale/immagini/cucina-sospesa-2.png" alt="Cucina sospesa 2" loading="lazy">
+        <div class="gallery-hover">
+          <span class="gallery-cat">Cucine</span>
+          <h3>Sospesa elegante</h3>
+        </div>
+      </div>
+      <div class="gallery-item" data-category="cucine" style="background:#f0f0f0;display:flex;align-items:center;justify-content:center;min-height:250px;border-radius:8px;border:2px dashed #ccc;">
+        <div style="text-align:center;color:#999;padding:20px;">
+          <i class="fas fa-image" style="font-size:32px;display:block;margin-bottom:12px;"></i>
+          <p style="margin:0;font-size:14px;">Altre foto cucine che ci invierete</p>
+        </div>
+      </div>
+      <div class="gallery-item" data-category="camere" style="background:#f0f0f0;display:flex;align-items:center;justify-content:center;min-height:250px;border-radius:8px;border:2px dashed #ccc;">
+        <div style="text-align:center;color:#999;padding:20px;">
+          <i class="fas fa-image" style="font-size:32px;display:block;margin-bottom:12px;"></i>
+          <p style="margin:0;font-size:14px;">Altre foto camere che ci invierete</p>
+        </div>
+      </div>
+      <div class="gallery-item" data-category="commerciale" style="background:#f0f0f0;display:flex;align-items:center;justify-content:center;min-height:250px;border-radius:8px;border:2px dashed #ccc;">
+        <div style="text-align:center;color:#999;padding:20px;">
+          <i class="fas fa-image" style="font-size:32px;display:block;margin-bottom:12px;"></i>
+          <p style="margin:0;font-size:14px;">Altre foto commerciali che ci invierete</p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="gallery-cta reveal">
+        <a href="contatti.html" class="btn btn-red btn-large"><i class="fas fa-envelope" style="margin-right:8px"></i> Richiedi un Preventivo</a>
+      </div>
+    </div>
+    <!-- WAVE: bottom of gallery (off-white), overlapping into CTA parallax -->
+    <div class="wave-divider-bottom wave-large" aria-hidden="true">
+      <svg viewBox="0 0 1440 120" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,45 C480,100 960,20 1440,75 L1440,0 L0,0 Z" fill="#F5F5F3"/>
+      </svg>
+    </div>
+  </section>
+
+  <section class="cta-parallax" style="background-image: url('../backup-sito-attuale/immagini/slider-moderno-bianco-2.jpg')">
+    <div class="parallax-overlay"></div>
+    <div class="container">
+      <div class="cta-content reveal">
+        <h2 class="heading-gradient-light">TI PIACE QUELLO<br>CHE VEDI?</h2>
+        <p>Contattaci per parlare del tuo progetto.</p>
+        <a href="contatti.html" class="btn btn-red btn-large">Contattaci Ora</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer wavy-section">
+    <div class="wavy-edge-top" aria-hidden="true">
+      <svg viewBox="0 0 1440 30" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,20 C540,2 1020,28 1440,8 L1440,30 L0,30 Z" fill="#1A1A1A"/>
+      </svg>
+    </div>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand"><img src="../backup-sito-attuale/immagini/logo.png" alt="Zaghet" class="footer-logo"><p class="footer-legal">Artigiana Mobili di Zaghet Lino e Figli SNC</p><p class="footer-legal">[P.IVA da confermare]</p></div>
+        <div class="footer-nav"><h4>Navigazione</h4><a href="index.html">Home</a><a href="chi-siamo.html">Chi Siamo</a><a href="servizi.html">Servizi</a><a href="realizzazioni.html">Realizzazioni</a><a href="blog.html">Blog</a><a href="contatti.html">Contatti</a></div>
+        <div class="footer-contact"><h4>Contatti</h4><p>Via Pontebbana, 51 &mdash; 31010 Orsago (TV)</p><p><a href="tel:+390438992125">0438 992 125</a></p><p><a href="mailto:arredamentizaghet@gmail.com">arredamentizaghet@gmail.com</a></p></div>
+        <div class="footer-social"><h4>Seguici</h4><div class="footer-social-links"><a href="#" class="social-link" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a><a href="#" class="social-link" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg></a><a href="#" class="social-link" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg></a><a href="#" aria-label="X" class="social-link"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a></div></div>
+      </div>
+      <div class="footer-bottom"><p>&copy; 2026 Zaghet Arredamenti &middot; Tutti i diritti riservati</p></div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

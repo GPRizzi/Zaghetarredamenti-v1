@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zaghet | Fabbrica Cucine su Misura - Camere, Salotti, Mobili in Stile</title>
+  <meta name="description" content="Zaghet - Fabbrica Cucine su Misura dal 1961. Camere, Salotti, Mobili in Stile. Orsago (TV).">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">
+        <img src="../backup-sito-attuale/immagini/logo.png" alt="Zaghet" class="nav-logo-img">
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="chi-siamo.html">Chi Siamo</a></li>
+        <li><a href="servizi.html">Servizi</a></li>
+        <li><a href="realizzazioni.html">Realizzazioni</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="sedi.html">Sedi</a></li>
+        <li><a href="contatti.html" class="nav-cta">Contattaci</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <img src="../backup-sito-attuale/immagini/sede-storica.jpeg" alt="Zaghet Arredamenti - Sede Orsago">
+    </div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <div class="hero-badge">Dal 1961 &middot; Orsago (TV)</div>
+      <h1 class="hero-title">FABBRICA CUCINE<br><span>SU MISURA</span></h1>
+      <p class="hero-desc">Camere &middot; Salotti &middot; Mobili in Stile<br>Ogni creazione &egrave; unica e irripetibile, proprio come chi la vivr&agrave;.</p>
+      <div class="hero-actions">
+        <a href="realizzazioni.html" class="btn btn-red">Scopri i Nostri Lavori</a>
+        <a href="contatti.html" class="btn btn-glass">Richiedi Preventivo</a>
+      </div>
+    </div>
+    <div class="hero-scroll-indicator">
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- PROMISE BAR -->
+  <section class="promise-bar wavy-section">
+    <div class="wavy-edge-top" aria-hidden="true">
+      <svg viewBox="0 0 1440 30" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,20 C480,4 960,28 1440,8 L1440,30 L0,30 Z" fill="#C8102E"/>
+      </svg>
+    </div>
+    <div class="container">
+      <div class="promise-content">
+        <blockquote>&ldquo;Non acquistare un mobile, regalati un'emozione&rdquo;</blockquote>
+        <cite>&mdash; Lino Zaghet, Fondatore</cite>
+      </div>
+    </div>
+    <div class="wavy-edge-bottom" aria-hidden="true">
+      <svg viewBox="0 0 1440 30" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,22 C480,2 960,26 1440,10 L1440,0 L0,0 Z" fill="#C8102E"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- STATS con PARALLAX -->
+  <section class="stats-parallax" style="background-image: url('../backup-sito-attuale/immagini/slider-moderno-bianco-2.jpg')">
+    <div class="stats-parallax-overlay"></div>
+    <div class="container">
+      <div class="stats-grid reveal-stagger">
+        <div class="stat-item reveal">
+          <i class="fas fa-suitcase stat-icon"></i>
+          <span class="stat-number">[N]</span>
+          <span class="stat-label">Cucine montate [N. da confermare]</span>
+        </div>
+        <div class="stat-item reveal">
+          <i class="fas fa-users stat-icon"></i>
+          <span class="stat-number">[N]</span>
+          <span class="stat-label">Clienti soddisfatti [N. da confermare]</span>
+        </div>
+        <div class="stat-item reveal">
+          <i class="fas fa-globe stat-icon"></i>
+          <span class="stat-number" data-target="60">0</span><span class="stat-plus">+</span>
+          <span class="stat-label">Anni di soddisfazioni</span>
+        </div>
+        <div class="stat-item reveal">
+          <i class="far fa-building stat-icon"></i>
+          <span class="stat-number">[N]</span>
+          <span class="stat-label">Cantieri ed abitazioni [N. da confermare]</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CHI SIAMO PREVIEW -->
+  <section class="chi-siamo-preview wavy-section">
+    <div class="wavy-edge-top" aria-hidden="true">
+      <svg viewBox="0 0 1440 30" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,18 C360,2 900,28 1440,12 L1440,30 L0,30 Z" fill="#F5F5F3"/>
+      </svg>
+    </div>
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-image reveal-scale" id="aboutImage">
+          <img src="../backup-sito-attuale/immagini/slider-fiera.jpg" alt="Zaghet alla Fiera del Mobile">
+          <div class="about-image-accent"></div>
+        </div>
+        <div class="about-text reveal">
+          <span class="section-tag">Chi Siamo</span>
+          <h2>[Titolo da definire]</h2>
+          <div class="about-separator"></div>
+          <p class="about-lead">Da oltre 60 anni, la famiglia Zaghet trasforma gli spazi in emozioni.</p>
+          <p>Tutto &egrave; iniziato nel 1961 a Orsago, quando Lino Zaghet fond&ograve; l'<strong>Artigiana Mobili</strong> con un sogno: creare arredi che facessero sentire le persone a casa. Oggi quel sogno continua con la stessa intensit&agrave;.</p>
+          <a href="chi-siamo.html" class="btn btn-red">Scopri la Nostra Storia</a>
+        </div>
+      </div>
+    </div>
+    <div class="wavy-edge-bottom" aria-hidden="true">
+      <svg viewBox="0 0 1440 30" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,14 C540,28 960,2 1440,18 L1440,0 L0,0 Z" fill="#F5F5F3"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- SERVIZI - 3D FLIP CARDS -->
+  <section class="servizi wavy-section">
+    <div class="wavy-edge-top" aria-hidden="true">
+      <svg viewBox="0 0 1440 30" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,22 C540,4 1020,28 1440,8 L1440,30 L0,30 Z" fill="#FFFFFF"/>
+      </svg>
+    </div>
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">I Nostri Servizi</span>
+        <h2 class="heading-gradient">Dalla prima idea alla consegna finale</h2>
+      </div>
+      <div class="services-grid">
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <div class="service-icon"><i class="fas fa-home"></i></div>
+              <h3>Costruisci</h3>
+              <p>Prova a pensare a qualcosa per Te, nato e costruito in modo originale.</p>
+              <span class="flip-hint">Scopri di pi&ugrave;</span>
+            </div>
+            <div class="flip-card-back">
+              <i class="fas fa-home back-icon"></i>
+              <h4>Costruisci su Misura</h4>
+              <p>Prova a pensare a qualcosa per Te, nato e costruito in modo originale, unico al Mondo per la tua soddisfazione. Ogni pezzo nasce dal dialogo tra i tuoi desideri e la nostra maestria artigianale.</p>
+            </div>
+          </div>
+        </div>
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <div class="service-icon"><i class="fas fa-sync"></i></div>
+              <h3>Ristruttura</h3>
+              <p>Rinnovare, inserire un tocco di personalit&agrave; a qualcosa che gi&agrave; hai.</p>
+              <span class="flip-hint">Scopri di pi&ugrave;</span>
+            </div>
+            <div class="flip-card-back">
+              <i class="fas fa-sync back-icon"></i>
+              <h4>Rinnova con Stile</h4>
+              <p>Rinnovare, inserire un tocco di personalit&agrave; a qualcosa che gi&agrave; hai. Una scelta Ecologica ed Economica che d&agrave; nuova vita ai tuoi spazi senza stravolgere l'esistente.</p>
+            </div>
+          </div>
+        </div>
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <div class="service-icon"><i class="fas fa-pen"></i></div>
+              <h3>Progetta</h3>
+              <p>La tua Casa. Pensala con un arredatore di esperienza.</p>
+              <span class="flip-hint">Scopri di pi&ugrave;</span>
+            </div>
+            <div class="flip-card-back">
+              <i class="fas fa-pen back-icon"></i>
+              <h4>Progettazione Esperta</h4>
+              <p>Il progetto di una vita, la tua Casa. Pensala con un arredatore di esperienza, che pu&ograve; aiutarti nelle scelte e nei colori. Dal rendering 3D alla realt&agrave;, ogni dettaglio viene curato.</p>
+            </div>
+          </div>
+        </div>
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <div class="service-icon"><i class="fas fa-hammer"></i></div>
+              <h3>Realizza</h3>
+              <p>Trasporto e montaggio, tutto quello che serve per il tuo sogno.</p>
+              <span class="flip-hint">Scopri di pi&ugrave;</span>
+            </div>
+            <div class="flip-card-back">
+              <i class="fas fa-hammer back-icon"></i>
+              <h4>Consegna e Montaggio</h4>
+              <p>Trasporto e montaggio, tutto quello che serve perch&eacute; un sogno si concretizzi in modo preciso e puntuale. Il nostro team esperto gestisce ogni fase fino all'ultimo dettaglio.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="services-cta reveal">
+        <a href="servizi.html" class="btn btn-red">Tutti i Servizi</a>
+      </div>
+    </div>
+    <div class="wavy-edge-bottom" aria-hidden="true">
+      <svg viewBox="0 0 1440 30" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,8 C540,28 1020,2 1440,22 L1440,0 L0,0 Z" fill="#FFFFFF"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- GALLERY / REALIZZAZIONI -->
+  <section class="gallery-section wavy-section">
+    <div class="wavy-edge-top" aria-hidden="true">
+      <svg viewBox="0 0 1440 30" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,20 C480,6 960,26 1440,10 L1440,30 L0,30 Z" fill="#F5F5F3"/>
+      </svg>
+    </div>
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Portfolio</span>
+        <h2 class="heading-gradient">Le Nostre Realizzazioni</h2>
+      </div>
+    </div>
+    <div class="gallery-masonry">
+      <div class="gallery-item gallery-tall" data-category="Cucina" data-title="Eleganza Contemporanea">
+        <img src="../backup-sito-attuale/immagini/slider-moderno-bianco-2.jpg" alt="Cucina moderna con isola" loading="lazy">
+        <div class="gallery-hover">
+          <span class="gallery-cat">Cucina</span>
+          <h3>Eleganza Contemporanea</h3>
+        </div>
+      </div>
+      <div class="gallery-item" data-category="Cucina" data-title="Atelier Moderno">
+        <img src="../backup-sito-attuale/immagini/slider-atelier-bianco.jpg" alt="Cucina atelier" loading="lazy">
+        <div class="gallery-hover">
+          <span class="gallery-cat">Cucina</span>
+          <h3>Atelier Moderno</h3>
+        </div>
+      </div>
+      <div class="gallery-item" data-category="Cucina" data-title="Legno e Pietra">
+        <img src="../backup-sito-attuale/immagini/slider-moderno-4.jpg" alt="Cucina legno pietra" loading="lazy">
+        <div class="gallery-hover">
+          <span class="gallery-cat">Cucina</span>
+          <h3>Legno e Pietra</h3>
+        </div>
+      </div>
+      <div class="gallery-item gallery-tall" data-category="Camera" data-title="Stile Etnico">
+        <img src="../backup-sito-attuale/immagini/slider-letto-etnico.jpg" alt="Camera etnica" loading="lazy">
+        <div class="gallery-hover">
+          <span class="gallery-cat">Camera</span>
+          <h3>Stile Etnico</h3>
+        </div>
+      </div>
+      <div class="gallery-item" data-category="Country" data-title="Mix Stili">
+        <img src="../backup-sito-attuale/immagini/mix-stili-1.jpeg" alt="Cucina mix stili" loading="lazy">
+        <div class="gallery-hover">
+          <span class="gallery-cat">Country</span>
+          <h3>Mix Stili</h3>
+        </div>
+      </div>
+      <div class="gallery-item" data-category="Residenziale" data-title="Effetto Sospeso">
+        <img src="../backup-sito-attuale/immagini/cucina-sospesa-1.png" alt="Cucina sospesa" loading="lazy">
+        <div class="gallery-hover">
+          <span class="gallery-cat">Residenziale</span>
+          <h3>Effetto Sospeso</h3>
+        </div>
+      </div>
+      <div class="gallery-item" data-category="Residenziale" data-title="Cucina Sospesa Premium">
+        <img src="../backup-sito-attuale/immagini/cucina-sospesa-3.png" alt="Cucina sospesa premium" loading="lazy">
+        <div class="gallery-hover">
+          <span class="gallery-cat">Residenziale</span>
+          <h3>Cucina Sospesa Premium</h3>
+        </div>
+      </div>
+      <div class="gallery-item" style="background:#f0f0f0;display:flex;align-items:center;justify-content:center;min-height:250px;border-radius:8px;border:2px dashed #ccc;">
+        <div style="text-align:center;color:#999;padding:20px;">
+          <i class="fas fa-image" style="font-size:32px;display:block;margin-bottom:12px;"></i>
+          <p style="margin:0;font-size:14px;">Altre immagini che ci invierete</p>
+        </div>
+      </div>
+      <div class="gallery-item" style="background:#f0f0f0;display:flex;align-items:center;justify-content:center;min-height:250px;border-radius:8px;border:2px dashed #ccc;">
+        <div style="text-align:center;color:#999;padding:20px;">
+          <i class="fas fa-image" style="font-size:32px;display:block;margin-bottom:12px;"></i>
+          <p style="margin:0;font-size:14px;">Altre immagini che ci invierete</p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="gallery-cta reveal">
+        <a href="realizzazioni.html" class="btn btn-red">Vedi Tutte le Realizzazioni</a>
+      </div>
+    </div>
+    <div class="wavy-edge-bottom" aria-hidden="true">
+      <svg viewBox="0 0 1440 30" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,10 C480,26 960,4 1440,20 L1440,0 L0,0 Z" fill="#F5F5F3"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- TESTIMONIAL -->
+  <section class="testimonials-section wavy-section">
+    <div class="wavy-edge-top" aria-hidden="true">
+      <svg viewBox="0 0 1440 30" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,16 C360,2 900,28 1440,10 L1440,30 L0,30 Z" fill="#FFFFFF"/>
+      </svg>
+    </div>
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Recensioni</span>
+        <h2 class="heading-gradient">Dicono di Noi</h2>
+        <p class="section-desc">La soddisfazione dei nostri clienti &egrave; la nostra migliore referenza.</p>
+      </div>
+      <div class="testimonials-carousel">
+        <div class="testimonial-main reveal-scale" id="testimonialMain">
+          <div class="tq-mark">&ldquo;</div>
+          <p class="tq-text" id="tqText">I miei genitori hanno recentemente acquistato una cucina da Zaghet Arredamenti di Orsago. L&rsquo;esperienza &eacute; stata molto positiva, sia per i consigli sulle soluzioni pi&ugrave; adatte, da parte del sig. Dario, sia per la qualit&agrave; della cucina che per il montaggio, che &eacute; stato veloce e accurato. Al momento della consegna si era presentato un problema perch&eacute; il lavello non era esattamente quello scelto dai miei genitori, ma il problema &eacute; stato prontamente risolto nell&rsquo;arco di qualche ora. I miei genitori sono molto soddisfatti.</p>
+          <div class="tq-author">
+            <div class="tq-avatar" id="tqAvatar">MC</div>
+            <div>
+              <span class="tq-name" id="tqName">Maria Cristina Carraro</span>
+              <span class="tq-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-thumbs">
+          <button class="tq-thumb active" data-index="0" data-text="I miei genitori hanno recentemente acquistato una cucina da Zaghet Arredamenti di Orsago. L&#8217;esperienza &#233; stata molto positiva, sia per i consigli sulle soluzioni pi&#249; adatte, da parte del sig. Dario, sia per la qualit&#224; della cucina che per il montaggio, che &#233; stato veloce e accurato. Al momento della consegna si era presentato un problema perch&#233; il lavello non era esattamente quello scelto dai miei genitori, ma il problema &#233; stato prontamente risolto nell&#8217;arco di qualche ora. I miei genitori sono molto soddisfatti." data-name="Maria Cristina Carraro" data-initials="MC">MC</button>
+          <button class="tq-thumb" data-index="1" data-text="Ringraziamo Pierantonio e Cristina per la qualit&#224; dei prodotti e per averci seguito fino all&#8217;ultimo nei minimi dettagli, per le modifiche effettuate con gentilezza e competenza con idee sempre puntuali con prezzi onesti." data-name="Alex Mareschi" data-initials="AM">AM</button>
+          <button class="tq-thumb" data-index="2" data-text="Siamo stati veramente fortunati a trovare Zaghet cucine. Dopo molte ricerche di mercato ho avuto la fortuna di avere un preventivo anche da loro nonostante un badget limitato. La cucina &#232; stata fatta su misura e sono stati inclusi tutti i particolari da me richiesti. Qualit&#224; altissima sia dei mobili di alta rifinitura sia degli elettrodomestici inseriti. La ditta viene in loco a prendere le misure e a decidere i colori in modo da avere la luce corretta. Puntualit&#224; e precisione sia negli appuntamenti che negli accordi. Impeccabili da ogni punto di vista. Altamente consigliato." data-name="Erika Brocca" data-initials="EB">EB</button>
+          <button class="tq-thumb" data-index="3" data-text="Abbiamo scoperto la ditta Zaghet per realizzare la mia cucina nuova, devo dire che sono stati gentilissimi. Hanno creato la cucina con materiali di qualita, sopratutto la nappa particolare ringrazio Pier Antonio di averla realizzata. Puntuali, personale qualificato con visione dei dettagli e idee, anche nel montaggio sono stati professionali. Consigliatissimo artigiani di qualit&#224;." data-name="Nadia Campodall'Orto" data-initials="NC">NC</button>
+          <button class="tq-thumb" data-index="4" data-text="Zaghet &#232; sinonimo di qualit&#224; ed efficienza. Personale competente sia per la proposta dei materiali sia per la capacit&#224; di fornire la migliore soluzione possibile. Siamo molto soddisfatti della cucina realizzata e del servizio post vendita fornito." data-name="Chiara Marchi" data-initials="CM">CM</button>
+          <button class="tq-thumb" data-index="5" data-text="Meno male esistono ancora aziende come queste, da loro tutto &#232; possibile, sempre disponibili e dal consiglio sempre utile &#8230;. Non per niente riescono a mantenere un prodotto di qualit&#224; al prezzo giusto &#8230;. sempre reperibili e pronti anche nel post vendita &#8230;.punto di forza degli artigiani &#8230;." data-name="Andrea Turcatel" data-initials="AT">AT</button>
+          <button class="tq-thumb" data-index="6" data-text="Cucina bella, solida e funzionale, sono state rispettate le nostre richieste, necessit&#224; ed aspettative. Consiglio sia per la professionalit&#224; che per la qualit&#224; del prodotto finale." data-name="Cristina Gallo" data-initials="CG">CG</button>
+        </div>
+      </div>
+    </div>
+    <div class="wavy-edge-bottom" aria-hidden="true">
+      <svg viewBox="0 0 1440 30" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,12 C480,28 960,2 1440,16 L1440,0 L0,0 Z" fill="#FFFFFF"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- BLOG PREVIEW -->
+  <section class="blog-preview wavy-section">
+    <div class="wavy-edge-top" aria-hidden="true">
+      <svg viewBox="0 0 1440 30" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,18 C480,2 960,28 1440,8 L1440,30 L0,30 Z" fill="#F5F5F3"/>
+      </svg>
+    </div>
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Dal Nostro Blog</span>
+        <h2 class="heading-gradient">Ispirazioni &amp; Consigli</h2>
+      </div>
+      <!-- NOTA: Articoli di esempio — i contenuti reali del blog verranno definiti insieme -->
+      <div class="blog-grid reveal-stagger">
+        <article class="blog-card reveal">
+          <div class="blog-img">
+            <img src="../backup-sito-attuale/immagini/slider-moderno-bianco.jpg" alt="Esempio articolo blog" loading="lazy">
+            <span class="blog-date">Data articolo</span>
+          </div>
+          <div class="blog-body">
+            <span class="blog-tag">Esempio</span>
+            <h3>[Titolo articolo 1 — da definire]</h3>
+            <p>Esempio di anteprima articolo. I contenuti reali del blog verranno scritti e pubblicati dopo il lancio del sito.</p>
+            <a href="blog.html" class="blog-link">Leggi l'articolo &rarr;</a>
+          </div>
+        </article>
+        <article class="blog-card reveal">
+          <div class="blog-img">
+            <img src="../backup-sito-attuale/immagini/slider-angolo-moderno.jpg" alt="Esempio articolo blog" loading="lazy">
+            <span class="blog-date">Data articolo</span>
+          </div>
+          <div class="blog-body">
+            <span class="blog-tag">Esempio</span>
+            <h3>[Titolo articolo 2 — da definire]</h3>
+            <p>Esempio di anteprima articolo. I contenuti reali del blog verranno scritti e pubblicati dopo il lancio del sito.</p>
+            <a href="blog.html" class="blog-link">Leggi l'articolo &rarr;</a>
+          </div>
+        </article>
+        <article class="blog-card reveal">
+          <div class="blog-img">
+            <img src="../backup-sito-attuale/immagini/slider-moderno-3-bianco.jpg" alt="Esempio articolo blog" loading="lazy">
+            <span class="blog-date">Data articolo</span>
+          </div>
+          <div class="blog-body">
+            <span class="blog-tag">Esempio</span>
+            <h3>[Titolo articolo 3 — da definire]</h3>
+            <p>Esempio di anteprima articolo. I contenuti reali del blog verranno scritti e pubblicati dopo il lancio del sito.</p>
+            <a href="blog.html" class="blog-link">Leggi l'articolo &rarr;</a>
+          </div>
+        </article>
+      </div>
+      <div class="blog-all reveal">
+        <a href="blog.html" class="btn btn-outline-dark">Tutti gli Articoli</a>
+      </div>
+    </div>
+    <div class="wavy-edge-bottom" aria-hidden="true">
+      <svg viewBox="0 0 1440 30" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,14 C480,28 960,4 1440,16 L1440,0 L0,0 Z" fill="#F5F5F3"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- SEDI -->
+  <section class="sedi wavy-section" id="sedi">
+    <div class="wavy-edge-top" aria-hidden="true">
+      <svg viewBox="0 0 1440 30" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,22 C480,4 960,26 1440,10 L1440,30 L0,30 Z" fill="#1A1A1A"/>
+      </svg>
+    </div>
+    <div class="container">
+      <div class="section-header section-header-light reveal">
+        <span class="section-tag section-tag-light">Dove Trovarci</span>
+        <h2 class="heading-gradient-light">Le Nostre Sedi</h2>
+      </div>
+      <div class="sedi-grid reveal-stagger">
+        <div class="sede-card reveal">
+          <div class="sede-marker"></div>
+          <h3>Sede Storica</h3>
+          <p class="sede-address">Via Pontebbana, 51 &mdash; Orsago (TV)</p>
+          <p class="sede-desc">Il cuore di Zaghet. Qui tutto &egrave; nato oltre 60 anni fa. Sede della fabbrica e delle nostre creazioni artigianali.</p>
+          <div class="sede-hours">
+            <p>Lun&ndash;Ven: 09.00&ndash;12.30 / 15.00&ndash;19.00</p>
+            <p>Sab: Su Appuntamento</p>
+          </div>
+        </div>
+        <div class="sede-card reveal">
+          <div class="sede-marker"></div>
+          <h3>Zaghet Atelier</h3>
+          <p class="sede-address">[Indirizzo da confermare]</p>
+          <p class="sede-desc">[Superficie da confermare] di showroom per creazioni contemporanee. Uno spazio curato per clienti esigenti.</p>
+          <div class="sede-hours">
+            <p>Solo su appuntamento</p>
+          </div>
+        </div>
+        <div class="sede-card reveal">
+          <div class="sede-marker"></div>
+          <h3>Zaghet Outlet</h3>
+          <p class="sede-address">[Indirizzo da confermare]</p>
+          <p class="sede-desc">[Superficie da confermare] con cucine moderne e classiche. Mobili in pronta consegna e occasioni imperdibili.</p>
+          <div class="sede-hours">
+            <p>[Orari da confermare]</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="wavy-edge-bottom" aria-hidden="true">
+      <svg viewBox="0 0 1440 30" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,8 C480,26 960,4 1440,20 L1440,0 L0,0 Z" fill="#1A1A1A"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-parallax" style="background-image: url('../backup-sito-attuale/immagini/sede-storica.jpeg')">
+    <div class="parallax-overlay"></div>
+    <div class="container">
+      <div class="cta-content reveal-scale">
+        <h2 class="heading-gradient-light">[Frase d'effetto &mdash; da definire]</h2>
+        <p>Raccontaci la tua idea. A volte basta un breve confronto.</p>
+        <a href="contatti.html" class="btn btn-red btn-large">Richiedi un Preventivo Gratuito</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer wavy-section">
+    <div class="wavy-edge-top" aria-hidden="true">
+      <svg viewBox="0 0 1440 30" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,20 C540,2 1020,28 1440,8 L1440,30 L0,30 Z" fill="#1A1A1A"/>
+      </svg>
+    </div>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="../backup-sito-attuale/immagini/logo.png" alt="Zaghet" class="footer-logo">
+          <p class="footer-legal">Artigiana Mobili di Zaghet Lino e Figli SNC</p>
+          <p class="footer-legal">[P.IVA da confermare]</p>
+        </div>
+        <div class="footer-nav">
+          <h4>Navigazione</h4>
+          <a href="index.html">Home</a>
+          <a href="chi-siamo.html">Chi Siamo</a>
+          <a href="servizi.html">Servizi</a>
+          <a href="realizzazioni.html">Realizzazioni</a>
+          <a href="blog.html">Blog</a>
+          <a href="contatti.html">Contatti</a>
+        </div>
+        <div class="footer-contact">
+          <h4>Contatti</h4>
+          <p>Via Pontebbana, 51 &mdash; 31010 Orsago (TV)</p>
+          <p><a href="tel:+390438992125">0438 992 125</a></p>
+          <p><a href="mailto:arredamentizaghet@gmail.com">arredamentizaghet@gmail.com</a></p>
+        </div>
+        <div class="footer-social">
+          <h4>Seguici</h4>
+          <div class="footer-social-links">
+            <a href="#" aria-label="Facebook" class="social-link"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a>
+            <a href="#" aria-label="Instagram" class="social-link"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg></a>
+            <a href="#" aria-label="YouTube" class="social-link"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg></a>
+            <a href="#" aria-label="X" class="social-link"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Zaghet Arredamenti &middot; Tutti i diritti riservati</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
